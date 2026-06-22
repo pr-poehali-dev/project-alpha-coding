@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "name": "GET companies",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 404,
+      "bodyMatcher": "partial"
+    }
+  ]
+}
